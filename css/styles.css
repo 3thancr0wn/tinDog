@@ -1,0 +1,196 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+p {
+    color: gray;
+}
+
+
+.big-heading {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* sections */
+
+
+.colored-section {
+
+}
+
+
+.white-section {
+    
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+/* title section */
+
+#title {
+    background-color: #ea728c;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 20%;
+}
+
+
+/* features section */
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+font-size: 1.5rem;
+}
+
+.icon {
+    color: orangered;
+    margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+    color: #ea728c;
+}
+
+
+/* testimonial section */
+
+#testimonials {
+    background-color: #ea728c;
+    color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+#press {
+    background-color: #ea728c;
+    padding-bottom: 3%;
+   
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing selector */
+
+#pricing {
+padding: 100px;
+
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-body {
+    margin-bottom: 1rem;
+}
+
+/* CTA section */
+
+#cta {
+    background-color: #ea728c;
+    color: white;
+  
+}
+
+.social-icon {
+    margin: 20px 20px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+    text-align: center;
+}
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}

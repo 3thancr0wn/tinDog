@@ -1,2 +1,1 @@
-# tinDog
-a front page tinder clone
+TinDog Starting Files
